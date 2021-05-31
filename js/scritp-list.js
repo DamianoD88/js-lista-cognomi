@@ -11,3 +11,7 @@
 // chiedo all'utenet il cognome tramite il promt
 
 var cognome = prompt('cognome');
+
+// Lista array cognomi da cui trarre il cognome richiesto
+
+var lista = ["Scapestrati", "Disperati", "Musoni", "Pazzi", "Malasorte", "Spada" ];
