@@ -1,5 +1,5 @@
 // Mail
-// Chiedi all’utente la sua email,
+//  1.  Chiedi all’utente la sua email,
 //  2.  controlla che sia nella lista di chi può accedere,
 //  3.  stampa un messaggio appropriato sull’esito del controllo.
 
@@ -15,3 +15,11 @@
 
 
 var mail = prompt('la tua mail?');
+
+var iscritti = ["pippo@live.it", "pluto@gmail.com", "Giggio@yahoo.com", "erpatacca@yahoo.com" ]
+
+console.log(iscritti[0]);
+console.log(iscritti[1]);
+console.log(iscritti[2]);
+console.log(iscritti[3]);
+console.log(iscritti[4]);
