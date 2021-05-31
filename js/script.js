@@ -16,10 +16,21 @@
 
 var mail = prompt('la tua mail?');
 
-var iscritti = ["pippo@live.it", "pluto@gmail.com", "Giggio@yahoo.com", "erpatacca@yahoo.com" ]
+var iscritti = ["pippo@live.it", "pluto@gmail.com", "Giggio@yahoo.com", "erpatacca@yahoo.com" ];
 
-console.log(iscritti[0]);
-console.log(iscritti[1]);
-console.log(iscritti[2]);
-console.log(iscritti[3]);
-console.log(iscritti[4]);
+var risultato = "non puoi accedere";
+
+// console.log(iscritti[0]);
+// console.log(iscritti[1]);
+// console.log(iscritti[2]);
+// console.log(iscritti[3]);
+
+
+for (var i = 0; i < iscritti.length; i++) {
+    console.log(iscritti[i]);
+    if (mail == iscritti[i]){
+        risultato = "Puoi accedere";
+    }
+} 
+
+alert (risultato);
