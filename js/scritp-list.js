@@ -8,10 +8,24 @@
 // Consultiamo la documentazione W3Schools o MDN per trovare i metodi JavaScript che possono esserci utili.
 // Buon lavoro e buon divertimento! 
 
-// chiedo all'utenet il cognome tramite il promt
+// chiedo all'utenet il cognome tramite il prompt
 
 var cognome = prompt('cognome');
+
+
 
 // Lista array cognomi da cui trarre il cognome richiesto
 
 var lista = ["Scapestrati", "Disperati", "Musoni", "Pazzi", "Malasorte", "Spada" ];
+
+// cognome da inserire nell'array
+lista.push(cognome)
+
+lista.sort()
+
+for (var i = 0; i < lista.length; i++) {
+    console.log(lista[i]);
+    if (cognome == lista[i]){
+        risultato = i+1;
+    }
+} 
